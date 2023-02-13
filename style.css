@@ -519,7 +519,7 @@ section {
 }
 
 @media screen and (max-width: 767px){
-.text1 a {
+.text0__buttons a {
     width: 100% !important;
 }
 }
@@ -565,6 +565,7 @@ section {
 .About__video {
     margin-bottom: 16px;
 }
+}
 
 @media screen and (max-width: 767px){
 .About {
@@ -590,5 +591,17 @@ section {
 @media screen and (max-width: 767px){
 .About__title h2 span {
     letter-spacing: 1px;
+}
+}
+
+@media screen and (min-width: 768px){
+.text1 a:hover {
+    opacity: .8;
+}
+}
+
+@media screen and (min-width: 768px){
+.HeaderNavListItem__button:hover {
+    opacity: .8;
 }
 }
